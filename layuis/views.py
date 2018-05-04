@@ -2,7 +2,7 @@
 from __future__ import unicode_literals
 
 from django.shortcuts import render
-
+import json
 
 # Create your views here.
 def index(request):
@@ -15,6 +15,10 @@ def main(request):
 
 def login(request):
     print request.POST
+    print request.POST.get('userName')
+    print request.POST.get('password')
+    print request.POST.get('code')
+
     return render(request, 'page/login/login.html')
 
 
