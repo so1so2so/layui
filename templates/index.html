@@ -1,6 +1,6 @@
 <!DOCTYPE html>
+{% block head %}
 <html>
-
 <head>
     <meta charset="utf-8">
     <title>layui后台管理模板 2.0</title>
@@ -12,6 +12,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="format-detection" content="telephone=no">
     <link rel="icon" href="favicon.ico">
+{% endblock %}
     <link rel="stylesheet" href="/static/layui/css/layui.css" media="all"/>
     {% block css %}
         <link rel="stylesheet" href="/static/css/index.css" media="all"/>
@@ -71,9 +72,9 @@
                     </li>
                     <li class="layui-nav-item" id="userInfo">
                         <a href="javascript:;"><img src="/static/images/face.jpg" class="layui-nav-img userAvatar"
-                                                    width="35" height="35"><cite class="adminName">驊驊龔頾</cite></a>
+                                                    width="35" height="35"><cite class="adminName">一个项目</cite></a>
                         <dl class="layui-nav-child">
-                            <dd><a href="javascript:;" data-url="page/user/userInfo.html"><i class="seraph icon-ziliao"
+                            <dd><a href="javascript:;" data-url="{% url 'userinfo' %}"><i class="seraph icon-ziliao"
                                                                                              data-icon="icon-ziliao"></i><cite>个人资料</cite></a>
                             </dd>
                             <dd><a href="javascript:;" data-url="page/user/changePwd.html"><i class="seraph icon-xiugai"
@@ -87,7 +88,7 @@
                                     class="layui-badge-dot"></span></a></dd>
                             <dd pc><a href="javascript:;" class="changeSkin"><i class="layui-icon">&#xe61b;</i><cite>更换皮肤</cite></a>
                             </dd>
-                            <dd><a href="page/login/login.html" class="signOut"><i class="seraph icon-tuichu"></i><cite>退出</cite></a>
+                            <dd><a href="{% url 'login' %}" class="signOut"><i class="seraph icon-tuichu"></i><cite>退出</cite></a>
                             </dd>
                         </dl>
                     </li>
@@ -98,7 +99,7 @@
         <div class="layui-side layui-bg-black">
             <div class="user-photo">
                 <a class="img" title="我的头像"><img src="/static/images/face.jpg" class="userAvatar"></a>
-                <p>你好！<span class="userName">驊驊龔頾</span>, 欢迎登录</p>
+                <p>你好！<span class="userName">一个项目</span>, 欢迎登录</p>
             </div>
             <!-- 搜索 -->
             <div class="layui-form component">
@@ -116,9 +117,9 @@
                     <li class="layui-nav-item"><a><i class="layui-icon" data-icon=""></i><cite>其他页面</cite><span
                             class="layui-nav-more"></span></a>
                         <dl class="layui-nav-child">
-                            <dd class=""><a data-url="page/404.html"><i class="layui-icon" data-icon=""></i><cite>404页面</cite></a>
+                            <dd class=""><a data-url="{% url "page404" %}"><i class="layui-icon" data-icon=""></i><cite>404页面</cite></a>
                             </dd>
-                            <dd><a data-url="page/login/login.html" target="_blank"><i class="layui-icon" data-icon=""></i><cite>登录</cite></a>
+                            <dd><a data-url="{% url 'login' %}" target="_blank"><i class="layui-icon" data-icon=""></i><cite>登录</cite></a>
                             </dd>
                         </dl>
                     </li>
@@ -154,7 +155,7 @@
         </div>
         <!-- 底部 -->
         <div class="layui-footer footer">
-            <p><span>copyright @2018 驊驊龔頾</span>　　<a onclick="donation()"
+            <p><span>copyright @2018 一个项目</span>　　<a onclick="donation()"
                                                      class="layui-btn layui-btn-danger layui-btn-sm">捐赠作者</a></p>
         </div>
     </div>
@@ -163,8 +164,9 @@
     <div class="site-tree-mobile"><i class="layui-icon">&#xe602;</i></div>
     <div class="site-mobile-shade"></div>
 {% endblock %}
+{#<script type="text/javascript" src="/static/layui/lay/modules/jquery.js"></script>#}
+{#<script type="text/javascript" src="/static/js/jquery.cookie.js"></script>#}
 <script type="text/javascript" src="/static/layui/layui.js"></script>
-
 <script type="text/javascript" src="/static/js/cache.js"></script>
 <script type="text/javascript" src="/static/js/bodyTab.js"></script>
 {#	<script type="text/javascript" src="/static/layui/layui.all.js"></script>#}

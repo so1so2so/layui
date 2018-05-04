@@ -20,4 +20,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.index),
     url(r'^main$', views.main,name="main"),
+    url(r'^login', views.login,name="login"),
+    url(r'^userinfo', views.userinfo,name="userinfo"),
+    url(r'^page404', views.page404,name="page404"),
 ]

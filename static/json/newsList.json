@@ -6,7 +6,7 @@
 		{
 			"newsId": "1",
 			"newsName": "css3用transition实现边框动画效果",
-			"newsAuthor": "驊驊龔頾",
+			"newsAuthor": "一个项目",
 			"abstract": "css3用transition实现边框动画效果css3用transition实现边框动画效果",
 			"newsStatus": "0",
 			"newsImg":"../../images/userface1.jpg",
@@ -18,7 +18,7 @@
 		{
 			"newsId": "2",
 			"newsName": "自定义的模块名称可以包含/吗",
-			"newsAuthor": "驊驊龔頾",
+			"newsAuthor": "一个项目",
 			"abstract": "自定义的模块名称可以包含/吗自定义的模块名称可以包含/吗",
 			"newsStatus": "1",
 			"newsImg":"../../images/userface2.jpg",
@@ -54,7 +54,7 @@
 		{
 			"newsId": "5",
 			"newsName": "表单元素长度应该怎么调整才美观",
-			"newsAuthor": "驊驊龔頾",
+			"newsAuthor": "一个项目",
 			"abstract": "表单元素长度应该怎么调整才美观表单元素长度应该怎么调整才美观",
 			"newsStatus": "1",
 			"newsImg":"../../images/userface5.jpg",
@@ -69,7 +69,7 @@
 			"newsAuthor": "admin",
 			"abstract": "layui 利用ajax冲获取到json 数据后 怎样进行渲染layui 利用ajax冲获取到json 数据后 怎样进行渲染",
 			"newsStatus": "0",
-			"newsImg":"../../images/userface1.jpg",
+			"newsImg":"/static/images/userface1.jpg",
 			"newsLook": "私密浏览",
 			"newsTop": "checked",
 			"newsTime": "2017-04-14 00:00:00",
@@ -78,7 +78,7 @@
 		{
 			"newsId": "7",
 			"newsName": "微信页面中富文本编辑器LayEdit无法使用",
-			"newsAuthor": "驊驊龔頾",
+			"newsAuthor": "一个项目",
 			"abstract": "微信页面中富文本编辑器LayEdit无法使用微信页面中富文本编辑器LayEdit无法使用",
 			"newsStatus": "1",
 			"newsImg":"../../images/userface2.jpg",
@@ -90,7 +90,7 @@
 		{
 			"newsId": "8",
 			"newsName": "layui 什么时候发布新的版本呀",
-			"newsAuthor": "驊驊龔頾",
+			"newsAuthor": "一个项目",
 			"abstract": "layui 什么时候发布新的版本呀layui 什么时候发布新的版本呀",
 			"newsStatus": "2",
 			"newsImg":"../../images/userface3.jpg",
@@ -126,7 +126,7 @@
 		{
 			"newsId": "11",
 			"newsName": "layui form表单提交成功如何拿取返回值",
-			"newsAuthor": "驊驊龔頾",
+			"newsAuthor": "一个项目",
 			"abstract": "layui form表单提交成功如何拿取返回值layui form表单提交成功如何拿取返回值",
 			"newsStatus": "2",
 			"newsImg":"../../images/userface1.jpg",
@@ -138,7 +138,7 @@
 		{
 			"newsId": "12",
 			"newsName": "layer mobileV2.0 yes回调函数无法用？",
-			"newsAuthor": "驊驊龔頾",
+			"newsAuthor": "一个项目",
 			"abstract": "layer mobileV2.0 yes回调函数无法用？layer mobileV2.0 yes回调函数无法用？",
 			"newsStatus": "1",
 			"newsImg":"../../images/userface2.jpg",
@@ -162,7 +162,7 @@
 		{
 			"newsId": "14",
 			"newsName": "被编辑器 layedit 图片上传搞崩溃了",
-			"newsAuthor": "驊驊龔頾",
+			"newsAuthor": "一个项目",
 			"abstract": "被编辑器 layedit 图片上传搞崩溃了被编辑器 layedit 图片上传搞崩溃了",
 			"newsStatus": "0",
 			"newsImg":"../../images/userface4.jpg",
@@ -174,7 +174,7 @@
 		{
 			"newsId": "15",
 			"newsName": "element.tabChange()方法运行了，但是页面并没有产生效果",
-			"newsAuthor": "驊驊龔頾",
+			"newsAuthor": "一个项目",
 			"abstract": "element.tabChange()方法运行了，但是页面并没有产生效果element.tabChange()方法运行了，但是页面并没有产生效果",
 			"newsStatus": "2",
 			"newsImg":"../../images/userface5.jpg",
