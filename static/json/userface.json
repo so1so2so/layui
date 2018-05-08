@@ -3,15 +3,15 @@
 	"msg": "",
 	"data": [
 		{
-			"src": "../../images/userface1.jpg"
+			"src": "/static/images/userface1.jpg"
 		},{
-			"src": "../../images/userface2.jpg"
+			"src": "/static/images/userface2.jpg"
 		},{
-			"src": "../../images/userface3.jpg"
+			"src": "/static/images/userface3.jpg"
 		},{
-			"src": "../../images/userface4.jpg"
+			"src": "/static/images/userface4.jpg"
 		},{
-			"src": "../../images/userface5.jpg"
+			"src": "/static/images/userface5.jpg"
 		}
 	]
 }

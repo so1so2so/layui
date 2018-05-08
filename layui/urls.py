@@ -23,5 +23,7 @@ urlpatterns = [
     url(r'^login$', views.login,name="login"),
     url(r'^userinfo$', views.userinfo,name="userinfo"),
     url(r'^edit_list$', views.edit_list,name="edit_list"),
+    url(r'^image_list$', views.image_list,name="image_list"),
+    url(r'^user_list$', views.user_list,name="user_list"),
     url(r'^page404$', views.page404,name="page404"),
 ]

@@ -33,3 +33,11 @@ def page404(request):
 
 def edit_list(request):
     return render(request, 'page/news/newsList.html')
+
+
+def image_list(request):
+    return render(request, 'page/img/images.html')
+
+
+def user_list(request):
+    return render(request, 'page/user/userList.html')
