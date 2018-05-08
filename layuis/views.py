@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 from django.shortcuts import render
 import json
 
+
 # Create your views here.
 def index(request):
     return render(request, 'index.html')
@@ -28,3 +29,7 @@ def userinfo(request):
 
 def page404(request):
     return render(request, 'page/404.html')
+
+
+def edit_list(request):
+    return render(request, 'page/news/newsList.html')

@@ -3,7 +3,7 @@
 		{
 			"title": "文章列表",
 			"icon": "icon-text",
-			"href": "page/news/newsList.html",
+			"href": "/edit_list",
 			"spread": false
 		},
 		{
@@ -19,15 +19,15 @@
 			"spread": false,
 			"children": [
 				{
-					"title": "404页面",
+					"title": "page404",
 					"icon": "&#xe61c;",
-					"href": "page/404.html",
+					"href": "/page404",
 					"spread": false
 				},
 				{
 					"title": "登录",
 					"icon": "&#xe609;",
-					"href": "page/login/login.html",
+					"href": "/login",
 					"spread": false,
 					"target": "_blank"
 				}
